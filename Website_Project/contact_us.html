@@ -10,9 +10,16 @@
 <body>
 
 <div id="wrapper">
+
 	<header>
-		<h1>A1 School of Motoring</h1>
+	<img class="header_A1_logo" src="images/A1_logo.png" alt="A1 Logo">
+	<img class="header_IDA_logo" src="images/adi_logo.jpg" alt="ADI Logo" style="float:right;width:20%;height:75%;">	
+	<h1 class="header_text" style="float:center;">To book a driving lesson Tel: 086-8830642</h1>
 	</header>
+	
+	<div>
+	<img src="images/passed-driving-test.jpg" alt="Passed Driving Test" style="width:100%;height:50%;">	
+	</div>
 	<nav> 
 		<ul>
 	
@@ -28,10 +35,57 @@
 	</nav>
 	
 	<div id="sidebar">
-	<p>For Advertisements / Testimonials</p>		
+	
+	<img class="sidebar_ads" src="images/callback.jpg" alt="Callback">
+	<img class="sidebar_ads" src="images/edt_logbook.jpg" alt="EDT Lessons">	
+	<img class="sidebar_ads" src="images/first_ireland.jpg" alt="First Ireland">	
+		
 	</div>
+	
 	<div id="main">
-	<p>This is the contact us page</p>
+	<h3>Contact Us</h3>
+		<form method = "post" action = "mailto:bbuckler@eircom.net" target="_parent">
+			
+			<table>
+				<tr><td>Name:</td>
+				<td><input name = "fname" placeholder="first name"/><input name = "lname" placeholder="last name"/></td>
+				</tr>
+				
+				<tr><td>Address:</td> 
+				<td><input name = "address" placeholder="first line of address"/></td></tr>
+				
+				<tr><td>Town:</td> 
+				<td><input name = "town" placeholder="town"/></td></tr>
+				
+				<tr><td>Mobile Tel:</td> 
+				<td><input name = "town" placeholder="mobile tel"/> Request Callback  <input type = "radio" name = "request callback" /></td></tr>
+				
+				<tr><td>Email:</td>
+				<td><input name = "email" placeholder="email"/></td></tr>
+				
+				<tr><td>Enquiry Category:</td>
+				<td>
+					<select name = "Enquiry Category:">
+							<option value = "Select">Select...</option>
+							<option value = "Getting Started">Getting Started</option>
+							<option value = "Lessons">Lessons</option>
+							<option value = "Pricing">Pricing</option>
+							<option value = "Gift Vouchers">Gift Vouchers</option>
+							<option value = "Other">Other</option>		
+					</select></td></tr>
+										
+				<tr>
+				<td>Comments:</td>
+				<td><textarea name="comment" cols="50" rows="5" placeholder="please type your questions & comments here...."></textarea></td>
+				</tr>
+				<tr><td></td>
+				<td><input type = "reset" value = "Reset Form" /><br>
+				<br><input type = "Submit" value="Submit" /></td>
+				</tr>
+				
+			</table>
+		
+		</form>
 	</div>
 	
 	<footer>

@@ -2,7 +2,7 @@ body
 {
 color:black;
 font-family:helvetica;
-background-color:#FFFFFF;
+background-color:#000000;
 }
 
 li {
@@ -23,6 +23,28 @@ height:20%;
 background-color:#3D5C5C;
 color:white;
 }
+
+h1.header_text{
+text-align: center;
+padding-top: 5%;
+}
+
+
+img.Header_A1_logo{
+float:left;
+width:15%;
+height:75%;
+margin: 1%;
+}
+
+img.Header_IDA_logo{
+float:right;
+width:10%;
+height:50%;
+margin: 1%;
+}
+
+
 
 nav {
 width:100%;
@@ -70,6 +92,15 @@ background-color:#D2E1E1;
 float:left;
 }
 
+img.sidebar_ads {
+float:left;
+width:80%;
+height:25%;
+margin:5% 5% 5% 5%;
+}
+
+
+
 #main
 {
 width:67%;
@@ -80,7 +111,7 @@ float:right;
 }
 
 .gs_main a:link {
-    display: inline;
+display: inline;
  }
  
 footer {
@@ -91,12 +122,14 @@ color:white;
 float: left;
  }
 
+  
  /* --------------------- MEDIA!! -----------------*/
 
 @media screen and (max-width: 478px) {
 	body {
 		font-size: 13px;
 	}
+
 }
 
 @media screen and (max-width: 740px) {

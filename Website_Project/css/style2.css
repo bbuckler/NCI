@@ -76,8 +76,8 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li.active a {
-	background-color: #000000;
-	color: #FFFFFF;
+	background-color: #90A4A4;
+	color:  #000000;
 }
 
 .clearfix {

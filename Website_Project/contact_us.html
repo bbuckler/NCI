@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>A1 School of Motoring Drogheda </title>
 	<meta name = "viewport" content = "width=device-width, initial-scale= 1.0">
-	<link rel="stylesheet" type"test/css" href="style2.css">
+	<link rel="stylesheet" type"test/css" href="css/style2.css">
 	
 </head>
 <body>
@@ -44,8 +44,9 @@
 	
 	<div id="main">
 	<h3>Contact Us</h3>
-		<form method = "post" action = "mailto:bbuckler@eircom.net" target="_parent">
-			
+	<p>Please complete the form below or alternatively send an email to <a href="mailto:a1@droghedadrivinglessons.ie">a1@droghedadrivinglessons.ie</a></p> 
+	<!--	<form method = "post" action = "mailto:bbuckler@eircom.net" target="_parent">  -->
+			<form name="contactUs" action="demo_form.asp" onsubmit="return validateForm()" method="post">
 			<table>
 				<tr><td>Name:</td>
 				<td><input name = "fname" placeholder="first name"/><input name = "lname" placeholder="last name"/></td>
@@ -58,20 +59,21 @@
 				<td><input name = "town" placeholder="town"/></td></tr>
 				
 				<tr><td>Mobile Tel:</td> 
-				<td><input name = "town" placeholder="mobile tel"/> Request Callback  <input type = "radio" name = "request callback" /></td></tr>
+				<td><input name = "mobileno" placeholder="08nnnnnnnn"/> Request Callback  <input type = "radio" name = "request callback" /></td></tr>
 				
 				<tr><td>Email:</td>
-				<td><input name = "email" placeholder="email"/></td></tr>
+				<td><input name = "email" placeholder="email address"/></td></tr>
 				
 				<tr><td>Enquiry Category:</td>
 				<td>
-					<select name = "Enquiry Category:">
-							<option value = "Select">Select...</option>
-							<option value = "Getting Started">Getting Started</option>
-							<option value = "Lessons">Lessons</option>
-							<option value = "Pricing">Pricing</option>
-							<option value = "Gift Vouchers">Gift Vouchers</option>
-							<option value = "Other">Other</option>		
+					<select name = "category" >
+							<option value = "-1">Select..</option>
+							<option value = "getting_started">Getting Started</option>
+							<option value = "lessons">Lessons</option>
+							<option value = "driving_test">Driving Test</option>
+							<option value = "pricing">Pricing</option>
+							<option value = "gift_vouchors">Gift Vouchers</option>
+							<option value = "other">Other</option>		
 					</select></td></tr>
 										
 				<tr>
@@ -95,6 +97,9 @@
 	</footer>
 
 </div>	
+
+<script src="jquery-1.11.2.min.js"></script> 
+<script src="js/scripts.js"></script>
 
 </body>
 </html>

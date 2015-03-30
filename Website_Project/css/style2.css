@@ -25,25 +25,30 @@ color:white;
 }
 
 h1.header_text{
-text-align: center;
+text-align:left;
+padding-left: 5%;
 padding-top: 5%;
 }
 
 
-img.Header_A1_logo{
+img.header_A1_logo{
 float:left;
-width:15%;
-height:75%;
+width:100%;
+height:80%;
 margin: 1%;
 }
 
-img.Header_IDA_logo{
+img.header_ADI_logo{
 float:right;
-width:10%;
-height:50%;
-margin: 1%;
+width:100%;
+height:60%;
+margin: 4% 4% 8% 2%;
 }
 
+.adi_no {
+text-decoration:none;
+color:white;
+}
 
 
 nav {
@@ -72,7 +77,7 @@ nav ul li a {
 	font-size: 18px;
 	color: #FFFFFF;
 	text-decoration: none;
-	text-align: center:
+	text-align: center;
 }
 
 nav ul li a:hover, nav ul li.active a {
@@ -80,7 +85,7 @@ nav ul li a:hover, nav ul li.active a {
 	color:  #000000;
 }
 
-.clearfix {
+.clearfix{
 	clear: both;
 }
 
@@ -92,22 +97,37 @@ background-color:#D2E1E1;
 float:left;
 }
 
-img.sidebar_ads {
+.sidebar_ads1{
 float:left;
 width:80%;
 height:25%;
-margin:5% 5% 5% 5%;
+margin:5% 10%;
+border:solid;
+color:#3D5C5C;
+
 }
+
+.sidebar_ads2{
+float:left;
+width:80%;
+height:25%;
+margin:5% 10%;
+border:solid;
+color:#3D5C5C;
+}
+
 
 #exampleSlider 
 {
 float:left;
-width:80%;
+width:59%;
 height:30%; 
 overflow:hidden; 
 list-style:none; 
 padding: 0; 
-margin:5% 5% 5% 15%;
+margin:5% 10% 5% 20%;
+border:solid;
+color:#3D5C5C;
 }
 
 
@@ -173,12 +193,13 @@ float: left;
 		padding: 8px 0;
 		font-size: 16px;
 	}
-	
+		
 	#sidebar{
 		width: 0%;
 	}
 	
-	#main {
+	#main_page {
 		width: 100%;
 	}
+	
 }

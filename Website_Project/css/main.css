@@ -1,0 +1,105 @@
+/* Common to all pages */
+
+.content{
+	color:#000000;
+	font-family:helvetica;
+}
+
+.clearfix{
+	clear:both;
+	}
+	
+.clearfixright{
+	clear:right;
+}
+
+/* Getting Started page */
+
+#learner_permit{
+	display:block;
+	float:left;
+	width:31.5%;
+	height:22.5%;
+	border:solid;
+	color:#ffffff;
+	margin-left:1%;
+}
+
+#topic_list{
+	float:left;
+	width:50%;
+	height:35%;
+	margin-left:3%;
+}
+
+/* EDT Lessons page */
+
+#edt_lessons{
+	display:block;
+	float:left;
+	width:50%;
+	height:42%;
+	margin-left:3%;
+}
+
+#logbook_pages{
+	display:block;
+	float:left;
+	border:solid;
+	color:#ffffff;
+	margin-left:1%;
+}
+
+#edt_include{
+	display:block;
+	float:left;
+	width:50%;
+	height:20%;
+	margin-left:3%;	
+}
+
+/* EDT Lessons page */
+
+#full_license{
+	display:block;
+	float:left;
+	width:32.5%;
+	height:23%;
+	border:solid;
+	color:#ffffff;
+	margin-right:5%;
+}
+
+#driving_test{
+	display:block;
+	float:left;
+	width:50%;
+	height:20%;
+	margin-left:3%;	
+
+
+}
+
+/* Pricing page */
+
+table.GeneratedTable {
+	width:80%;
+	background-color:#FFFFFF;
+	border-collapse:collapse;border-width:2px;
+	border-color:#585858;
+	border-style:solid;
+	color:#000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+	border-width:2px;
+	border-color:#FFFFFF;
+	border-style:solid;
+	padding:3px;
+	text-align:left;
+}
+
+table.GeneratedTable thead {
+	background-color:#585858;
+	color:#FFFFFF;
+}

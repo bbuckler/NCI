@@ -1,11 +1,12 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<title>A1 School of Motoring Drogheda </title>
 	<meta name = "viewport" content = "width=device-width, initial-scale= 1.0">
-	<link rel="stylesheet" type"test/css" href="css/style2.css">
-	<!-- Javascripts loaded just before the </body> tag to improve website user experience --> 
+	<link rel="stylesheet" type="test/css" href="css/style2.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Javascript is loaded just before the </body> tag to improve website user experience --> 
 		
 		
 </head>
@@ -13,7 +14,7 @@
 
 <div id="wrapper">
 
-	<header>
+	<header id="header">
 		<div id="header_a1_logo">
 		<a href="index.html" target="_blank"><img class="header_a1_logo" src="images/A1_logo.png" alt="A1 Logo"></a>
 		</div>
@@ -28,24 +29,62 @@
 		</div>
 	</header>
 	
-	<div id="slider">
-			<img src="images/lplatemini2.jpg" alt="Passed Driving Test" />
-	</div>	
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/guykeysa.jpg" alt="drive" width="1140" height="400">
+      </div>
+
+      <div class="item">
+        <img src="images/ladydriver.jpg" alt="drive" width="1140" height="400">
+      </div>
+    
+      <div class="item">
+        <img src="images/driverrippinglplate.jpg" alt="drive" width="1140" height="400">
+      </div>
+
+      <div class="item">
+        <img src="images/whiteminidriver.jpg" alt="drive" width="1140" height="400">
+      </div>
+    
+       <div class="item">
+	        <img src="images/blonddriver.jpg" alt="drive" width="1140" height="400">
+      </div>
+      
+         <div class="item">
+	          <img src="images/youngmaledriver.jpg" alt="drive" width="1140" height="400">
+      </div>
+    
+    
+    </div>
+   
+	</div>
 	
+	<div id="navigation">
 	<nav> 
 		<ul>
-	
 			<li><a href="about_us.html" target="main">About Us</a></li>
 			<li><a href="getting_started.html" target="main">Getting Started</a></li>	
 			<li><a href="edt_lessons.html" target="main">EDT Lessons</a></li>
 			<li><a href="driving_test.html" target="main">Driving Test</a></li>
 			<li><a href="pricing.html" target="main">Pricing</a></li>
-			<li><a href="contact_us.html" target="main">Contact Us</a><pre></li>
-
+			<li><a href="contact_us.html" target="main">Contact Us</a></li>
 		</ul>
-		<div class="clearfix"></div>
+		<div class="clearfix"></div>    
 	</nav>
-		
+	</div>
 	
 	<div id="sidebar">
 	
@@ -53,38 +92,38 @@
 	<a href="edt_lessons.html" target="main"><img class="sidebar_ads2" src="images/edt_logbook.jpg" alt="EDT Lessons"></a>
 
 		<ul id="exampleSlider">
-			<li><img src="images/fb_passed_01.jpg"/></li>
-			<li><img src="images/fb_passed_02.jpg"/></li>
-			<li><img src="images/fb_passed_03.jpg"/></li>
-			<li><img src="images/fb_passed_04.jpg"/></li>
-			<li><img src="images/fb_passed_05.jpg"/></li>
-			<li><img src="images/fb_passed_06.jpg"/></li>
-			<li><img src="images/fb_passed_07.jpg"/></li>
-			<li><img src="images/fb_passed_08.jpg"/></li>
-			<li><img src="images/fb_passed_09.jpg"/></li>
-			<li><img src="images/fb_passed_10.jpg"/></li>
-			<li><img src="images/fb_passed_11.jpg"/></li>
-			<li><img src="images/fb_passed_12.jpg"/></li>
-			<li><img src="images/fb_passed_13.jpg"/></li>
-			<li><img src="images/fb_passed_14.jpg"/></li>
-			<li><img src="images/fb_passed_15.jpg"/></li>
-			<li><img src="images/fb_passed_16.jpg"/></li>
-			<li><img src="images/fb_passed_17.jpg"/></li>
-			<li><img src="images/fb_passed_18.jpg"/></li>
-			<li><img src="images/fb_passed_19.jpg"/></li>
-			<li><img src="images/fb_passed_20.jpg"/></li>
+			<li><img src="images/fb_passed_01.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_02.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_03.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_04.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_05.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_06.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_07.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_08.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_09.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_10.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_11.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_12.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_13.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_14.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_15.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_16.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_17.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_18.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_19.jpg" alt="driving"></li>
+			<li><img src="images/fb_passed_20.jpg" alt="driving"></li>
 		</ul> 	
 		
 	</div>
 		
 	<div id="main_page">
 	
-	<iframe frameborder="0" scrolling="no" src="about_us.html" name="main" id="main">
-	<iframe frameborder="0" scrolling="no" src="getting_started.html" name="main" id="main">
-	<iframe frameborder="0" scrolling="no" src="edt_lessons.html" name="main" id="main">
-	<iframe frameborder="0" scrolling="no" src="driving_test.html" name="main" id="main">
-	<iframe frameborder="0" scrolling="no" src="pricing.html" name="main" id="main">
-	<iframe frameborder="0" scrolling="no" src="contact_us.html" name="main" id="main">
+	<iframe src="about_us.html" name="main" id="main">
+	<iframe src="getting_started.html" name="main" id="main">
+	<iframe src="edt_lessons.html" name="main" id="main">
+	<iframe src="driving_test.html" name="main" id="main">
+	<iframe src="pricing.html" name="main" id="main">
+	<iframe src="contact_us.html" name="main" id="main">
 	<p>iframes are not supported by your browser.</p>
 	</iframe>
 			
@@ -97,10 +136,18 @@
 	<div class="google-hover social-slide"></div>
 	<a href="http://www.facebook.com/A1SOM" target="_blank"><div class="facebook-hover social-slide"></div></a>
 	</div>
+	
+	<p>contact: <a href="mailto:a1@droghedadrivinglessons.ie">a1@droghedadrivinglessons.ie</a></p>
+
+	<div id="copyright">
+	<p class="copyright">&copy;2015 a1 school of motoring</p>
+	</div>
+	
 	</footer>
 	
 </div>	
-	<script src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/slideshow_slidebar.js"></script>
 
 </body>

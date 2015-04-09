@@ -18,8 +18,8 @@
 #learner_permit{
 	display:block;
 	float:left;
-	width:31.5%;
-	height:22.5%;
+	width:auto;
+	height:auto;
 	border:solid;
 	color:#ffffff;
 	margin-left:1%;
@@ -58,13 +58,13 @@
 	margin-left:3%;	
 }
 
-/* EDT Lessons page */
+/* Driving Test page */
 
 #full_license{
 	display:block;
 	float:left;
-	width:32.5%;
-	height:23%;
+	width:auto%;
+	height:auto;
 	border:solid;
 	color:#ffffff;
 	margin-right:5%;

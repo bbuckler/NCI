@@ -5,15 +5,15 @@
 	<title>A1 School of Motoring Drogheda </title>
 	<meta name = "viewport" content = "width=device-width, initial-scale= 1.0">
 	<link rel="stylesheet" type="test/css" href="css/style2.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css"> <!-- bootstrap used for header slideshow only -->
 	<!-- Javascript is loaded just before the </body> tag to improve website user experience --> 
-		
-		
 </head>
-<body>
 
+<body>
+<!-- Web page wrapper -->
 <div id="wrapper">
 
+<!-- header containing logos/links and text -->
 	<header id="header">
 		<div id="header_a1_logo">
 		<a href="index.html" target="_blank"><img class="header_a1_logo" src="images/A1_logo.png" alt="A1 Logo"></a>
@@ -29,9 +29,9 @@
 		</div>
 	</header>
 	
-
+<!-- web page main slideshow, bootstrap css & js used here only!! --> 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
+
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -41,7 +41,6 @@
       <li data-target="#myCarousel" data-slide-to="5"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="images/guykeysa.jpg" alt="drive" width="1140" height="400">
@@ -66,12 +65,10 @@
          <div class="item">
 	          <img src="images/youngmaledriver.jpg" alt="drive" width="1140" height="400">
       </div>
-    
-    
-    </div>
-   
+	</div>
 	</div>
 	
+<!-- navigation bar -->	
 	<div id="navigation">
 	<nav> 
 		<ul>
@@ -82,16 +79,16 @@
 			<li><a href="pricing.html" target="main">Pricing</a></li>
 			<li><a href="contact_us.html" target="main">Contact Us</a></li>
 		</ul>
-		<div class="clearfix"></div>    
+		<div class="clearfix"></div>  <!-- used to clear nav menu display for align -->    
 	</nav>
 	</div>
 	
+<!-- sidebar used for advertisements and small slideshow showing passed driving test -->
 	<div id="sidebar">
-	
-	<a href="contact_us.html" target="main"><img class="sidebar_ads1" src="images/callback.jpg" alt="Request Callback"></a>
-	<a href="edt_lessons.html" target="main"><img class="sidebar_ads2" src="images/edt_logbook.jpg" alt="EDT Lessons"></a>
+		<a href="contact_us.html" target="main"><img class="sidebar_ads1" src="images/callback.jpg" alt="Request Callback"></a>
+		<a href="edt_lessons.html" target="main"><img class="sidebar_ads2" src="images/edt_logbook.jpg" alt="EDT Lessons"></a>
 
-		<ul id="exampleSlider">
+		<ul id="slideshow">
 			<li><img src="images/fb_passed_01.jpg" alt="driving"></li>
 			<li><img src="images/fb_passed_02.jpg" alt="driving"></li>
 			<li><img src="images/fb_passed_03.jpg" alt="driving"></li>
@@ -112,12 +109,12 @@
 			<li><img src="images/fb_passed_18.jpg" alt="driving"></li>
 			<li><img src="images/fb_passed_19.jpg" alt="driving"></li>
 			<li><img src="images/fb_passed_20.jpg" alt="driving"></li>
-		</ul> 	
-		
+		</ul> 		
 	</div>
-		
-	<div id="main_page">
 	
+
+<!-- main page using iframe tag to import each page on the nav bar, eliminating the need to reload the whole web page!! -->	
+	<div id="main_page">
 	<iframe src="about_us.html" name="main" id="main">
 	<iframe src="getting_started.html" name="main" id="main">
 	<iframe src="edt_lessons.html" name="main" id="main">
@@ -126,9 +123,9 @@
 	<iframe src="contact_us.html" name="main" id="main">
 	<p>iframes are not supported by your browser.</p>
 	</iframe>
-			
 	</div>
-	
+
+<!-- Footer containing the social media icons and links, along with copyright and contact email address -->	
 	<footer>
 	<div>
 	<div class="linkedin-hover social-slide"></div>
@@ -136,20 +133,17 @@
 	<div class="google-hover social-slide"></div>
 	<a href="http://www.facebook.com/A1SOM" target="_blank"><div class="facebook-hover social-slide"></div></a>
 	</div>
-	
 	<p>contact: <a href="mailto:a1@droghedadrivinglessons.ie">a1@droghedadrivinglessons.ie</a></p>
-
 	<div id="copyright">
 	<p class="copyright">&copy;2015 a1 school of motoring</p>
 	</div>
-	
 	</footer>
 	
-</div>	
+<!-- Javascripts loaded here to avoid webpage html and css loading delays -->	
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/slideshow_slidebar.js"></script>
-
+</div>
 </body>
 
 </html>

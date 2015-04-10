@@ -1,4 +1,4 @@
-/* Common to all pages */
+/* common to all pages */
 
 .content{
 	color:#000000;
@@ -13,7 +13,7 @@
 	clear:right;
 }
 
-/* Getting Started page */
+/* getting started page */
 
 #learner_permit{
 	display:block;
@@ -32,7 +32,7 @@
 	margin-left:3%;
 }
 
-/* EDT Lessons page */
+/* edt lessons page */
 
 #edt_lessons{
 	display:block;
@@ -58,14 +58,14 @@
 	margin-left:3%;	
 }
 
-/* Driving Test page */
+/* driving test page */
 
 #full_license{
 	display:block;
 	float:left;
-	width:auto%;
+	width:auto;
 	height:auto;
-	border:solid;
+	border-style:solid;
 	color:#ffffff;
 	margin-right:5%;
 }
@@ -76,11 +76,9 @@
 	width:50%;
 	height:20%;
 	margin-left:3%;	
-
-
 }
 
-/* Pricing page */
+/* pricing page table */
 
 table.GeneratedTable {
 	width:80%;
@@ -102,4 +100,10 @@ table.GeneratedTable td, table.GeneratedTable th {
 table.GeneratedTable thead {
 	background-color:#585858;
 	color:#FFFFFF;
+}
+
+/* contact us page */
+
+.comment_box{
+	resize:none;
 }

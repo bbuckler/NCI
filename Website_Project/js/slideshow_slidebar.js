@@ -4,7 +4,7 @@ $(function () {
     var change_img_time 	= 5000;	
     var transition_speed	= 300;
     
-    var simple_slideshow	= $("#exampleSlider"),
+    var simple_slideshow	= $("#slideshow"),
         listItems 			= simple_slideshow.children('li'),
         listLen				= listItems.length,
         i 					= 0,

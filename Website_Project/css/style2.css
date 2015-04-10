@@ -1,12 +1,26 @@
+/* common */
+
 body{
 	background-color:#FFFFFF;
 }
+
+p {
+    color: white;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/* wrapper*/
 
 #wrapper{
 	max-width:1140px;
 	margin:0 auto;
 	box-shadow: 0 0 6px 4px black;
 }
+
+/* header - logs & text */
 
 #header{
 	width:100%;
@@ -19,7 +33,7 @@ body{
 	float:left;
 	width:60%;
 	height:100%;
-	background-color: #585858
+	background-color:#585858
 }
 	
 .header_text{
@@ -35,7 +49,7 @@ body{
 	float:left;
 	width:20%;
 	height:100%;
-	background-color: #585858
+	background-color:#585858
 }
 
 .header_a1_logo{
@@ -49,7 +63,7 @@ body{
 	float:right;
 	width:20%;
 	height:100%;
-	  background-color: #585858
+	 background-color:#585858
 }
 
 .header_adi_logo{
@@ -62,7 +76,7 @@ body{
 .adi_no {
 	text-decoration:none;
 	font-family:helvetica;
-	font-size:16;
+	font-size:16px;
 	font-weight:bold;
 	color:#ffffff;
 }
@@ -70,6 +84,8 @@ body{
 .adi_text{
 	margin-left:6%;
 }
+
+/* main webpage slideshow */
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -81,7 +97,8 @@ body{
 	width:100%;
 	height: auto;
 }
-  
+ 
+/* navigation bar */ 
   
 nav {
 	width:100%;
@@ -118,9 +135,7 @@ nav ul li a:hover, nav ul li.active a {
 	color:#000000;
 }
 
-.clearfix{
-	clear:both;
-}
+/* sidebar ads & slideshow */
 
 #sidebar{
 	width:33%;
@@ -149,8 +164,7 @@ nav ul li a:hover, nav ul li.active a {
 	color:#064172;
 }
 
-
-#exampleSlider {
+#slideshow {
 	float:left;
 	width:59%;
 	height:30%; 
@@ -162,6 +176,8 @@ nav ul li a:hover, nav ul li.active a {
 	color:#064172;
 }
 
+/* main page content 
+- iframe page contents use main.css for styling */
 
 #main_page{
 	width:67%;
@@ -174,16 +190,14 @@ nav ul li a:hover, nav ul li.active a {
 iframe{
 	width:100%;
 	height:740px;
+	border-color:#e5e4e4;
 }
 
 .content{
 	color:white;
 }
 
-
-p {
-    color: white;
-}
+/* footer social media & text */
  
 footer {
 	width:100%;
@@ -223,8 +237,6 @@ footer {
 	width:48px;
 	margin:10px;
 	float:right;
-	-webkit-transition:all ease 0.3s;
-	-moz-transition:all ease 0.3s;
 	transition:all ease 0.3s;
 }
 
@@ -251,9 +263,19 @@ footer {
 
   
   
- /* --------------------- MEDIA!! -----------------*/
+ /*  ------ MEDIA -------  */
 
 @media screen and (max-width: 478px) {
+	
+	.header_text{
+		text-align:left;
+		font-family:helvetica;
+		font-size:16px;
+		font-weight:bold;
+		padding-left:5%;
+		padding-top:5%;
+}
+	
 	body {
 		font-size: 13px;
 	}
@@ -261,9 +283,28 @@ footer {
 }
 
 @media screen and (max-width: 740px) {
+
+	.header_text{
+		text-align:left;
+		font-family:helvetica;
+		font-size:20px;
+		font-weight:bold;
+		padding-left:5%;
+		padding-top:5%;
+}
+
+	.adi_no {
+		text-decoration:none;
+		font-family:helvetica;
+		font-size:12px;
+		font-weight:bold;
+		color:#ffffff;
+}
+
 	nav {
 		width: 100%;
 	}
+	
 	nav ul {
 		list-style: none;
 		margin: 0 auto;
@@ -271,13 +312,9 @@ footer {
 	}
 	nav ul li {
 		text-align: center;
-		margin-left: 0 auto;
 		width: 100%;
-		border-top: 1px solid #878E63;
-		border-top: 0px solid #878E63;
-		border-top: 1px solid #878E63;
-		border-top: 0px solid #878E63;
 	}
+	
 	nav ul li a {
 		padding: 8px 0;
 		font-size: 16px;
